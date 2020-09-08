@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             showRegistration()
         }
 
-        textViewLogin.setOnClickListener {
+        ButtonLogin.setOnClickListener {
             showLogIN()
         }
 

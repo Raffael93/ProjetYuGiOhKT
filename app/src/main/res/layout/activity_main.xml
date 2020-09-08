@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_light"
+    android:background="@drawable/yu"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/image"
-        android:layout_width="208dp"
-        android:layout_height="211dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginLeft="100dp"
-        app:layout_constraintVertical_bias="0.234"
-        tools:srcCompat="@tools:sample/avatars" />
 
     <LinearLayout
         android:id="@+id/home_ll"
@@ -23,7 +15,12 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:orientation="vertical">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86">
 
         <Button
             android:id="@+id/buttonRegister"
@@ -36,13 +33,11 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.616" />
 
-        <TextView
-            android:id="@+id/textViewLogin"
+        <Button
+            android:id="@+id/ButtonLogin"
             android:layout_width="173dp"
             android:layout_height="42dp"
-            android:text="Already have an account ?"
-            android:textColor="@android:color/white"
-            android:textStyle="bold"
+            android:text="got account ?"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -51,14 +46,14 @@
 
     </LinearLayout>
 
-
     <include
         android:id="@+id/registration_layout"
         layout="@layout/register"
         android:visibility="gone" />
+
     <include
         android:id="@+id/login_layout"
-        android:visibility="gone"
-        layout="@layout/login"/>
+        layout="@layout/login"
+        android:visibility="gone" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
