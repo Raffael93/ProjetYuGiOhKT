@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "677287838963",
+    "firebase_url": "https://testyugi.firebaseio.com",
+    "project_id": "testyugi",
+    "storage_bucket": "testyugi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677287838963:android:04e3c11a9e5424b3f92386",
+        "android_client_info": {
+          "package_name": "com.example.yugikt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677287838963-40sdrdujn5j5v6494hih10fdagrv4fck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL2Clz7GZgENnrR1iOpupWnVB_Yi2MIEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677287838963-40sdrdujn5j5v6494hih10fdagrv4fck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
