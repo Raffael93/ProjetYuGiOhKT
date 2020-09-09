@@ -1,7 +1,6 @@
 package com.example.yugikt
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -41,7 +40,7 @@ class MainActivity : AppCompatActivity() {
            if( handler.userPresent(email_login.text.toString(),password_login.text.toString() )){
 
                Toast.makeText(this,"Login success", Toast.LENGTH_SHORT).show()
-               startActivity( Intent(this,TestAc::class.java))
+               startActivity( Intent(this,RecyclerView::class.java))
            }
             else{
                Toast.makeText(this,"Login failed", Toast.LENGTH_SHORT).show()

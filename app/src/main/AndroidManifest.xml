@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.yugikt">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <meta-data
@@ -16,7 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".TestAc"
+            android:name=".RecyclerView"
             android:label="@string/title_activity_test"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".MainActivity">
