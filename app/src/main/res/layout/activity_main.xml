@@ -36,7 +36,7 @@
         <Button
             android:id="@+id/ButtonLogin"
             android:layout_width="173dp"
-            android:layout_height="42dp"
+            android:layout_height="46dp"
             android:text="got account ?"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

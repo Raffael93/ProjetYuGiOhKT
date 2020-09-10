@@ -6,7 +6,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 
-
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.login.*
 import kotlinx.android.synthetic.main.register.*
@@ -14,7 +13,7 @@ import kotlinx.android.synthetic.main.register.*
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var handler:DataBase
+    lateinit var handler: DataBase
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,7 +39,7 @@ class MainActivity : AppCompatActivity() {
            if( handler.userPresent(email_login.text.toString(),password_login.text.toString() )){
 
                Toast.makeText(this,"Login success", Toast.LENGTH_SHORT).show()
-               startActivity( Intent(this,RecyclerView::class.java))
+               startActivity( Intent(this, MenuActivity::class.java))
            }
             else{
                Toast.makeText(this,"Login failed", Toast.LENGTH_SHORT).show()
