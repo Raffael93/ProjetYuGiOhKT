@@ -22,6 +22,11 @@ class MenuActivity : AppCompatActivity() {
             startActivity(Intent(this,PDFActivity::class.java))
         }
 
+        buttonSearch.setOnClickListener {
+            startActivity(Intent(this,SearchActivity::class.java))
+
+        }
+
 
     }
 }
