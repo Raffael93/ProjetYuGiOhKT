@@ -12,24 +12,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SearchActivity"></activity>
-        <activity android:name=".VideoView">
+        <activity android:name=".View.SearchActivity"></activity>
+        <activity android:name=".ModelView.VideoView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PDFActivity" />
+        <activity android:name=".View.PDFActivity" />
         <activity
-            android:name=".MenuActivity"
+            android:name=".View.MenuActivity"
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".RecyclerView"
+            android:name=".ModelView.RecyclerView"
             android:label="@string/title_activity_test"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".View.MainActivity"></activity>
     </application>
 
 </manifest>

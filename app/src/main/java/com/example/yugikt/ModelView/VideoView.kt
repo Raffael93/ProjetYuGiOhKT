@@ -1,4 +1,4 @@
-package com.example.yugikt
+package com.example.yugikt.ModelView
 
 import android.content.Intent
 import android.media.MediaPlayer.OnCompletionListener
@@ -7,6 +7,8 @@ import android.os.Bundle
 import android.view.WindowManager
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.yugikt.R
+import com.example.yugikt.View.MainActivity
 
 
 class VideoView : AppCompatActivity() {

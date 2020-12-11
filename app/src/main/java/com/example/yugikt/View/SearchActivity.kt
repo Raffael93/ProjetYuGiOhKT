@@ -1,4 +1,4 @@
-package com.example.yugikt;
+package com.example.yugikt.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,7 @@ import android.widget.ArrayAdapter
 import android.widget.ListView
 import android.widget.SearchView;
 import android.widget.Toast
-import kotlinx.android.synthetic.main.activity_search.*
+import com.example.yugikt.R
 
 class SearchActivity : AppCompatActivity() {
 

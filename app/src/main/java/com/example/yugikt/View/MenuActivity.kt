@@ -1,10 +1,10 @@
-package com.example.yugikt
+package com.example.yugikt.View
 
 import android.content.Intent
 import android.os.Bundle
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
+import com.example.yugikt.R
+import com.example.yugikt.ModelView.RecyclerView
 import kotlinx.android.synthetic.main.activity_menu.*
 
 class MenuActivity : AppCompatActivity() {
@@ -15,15 +15,15 @@ class MenuActivity : AppCompatActivity() {
 
 
         buttonCards.setOnClickListener {
-            startActivity(Intent(this,RecyclerView::class.java))
+            startActivity(Intent(this, RecyclerView::class.java))
         }
 
         buttonRules.setOnClickListener {
-            startActivity(Intent(this,PDFActivity::class.java))
+            startActivity(Intent(this, PDFActivity::class.java))
         }
 
         buttonSearch.setOnClickListener {
-            startActivity(Intent(this,SearchActivity::class.java))
+            startActivity(Intent(this, SearchActivity::class.java))
 
         }
 

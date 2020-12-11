@@ -1,11 +1,15 @@
-package com.example.yugikt
+package com.example.yugikt.Model
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
-class DataBase (context : Context) : SQLiteOpenHelper(context,dbname,factory, version){
+class DataBase (context : Context) : SQLiteOpenHelper(context,
+    dbname,
+    factory,
+    version
+){
 
     companion object{
         internal val dbname = "userDB"

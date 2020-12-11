@@ -1,4 +1,4 @@
-package com.example.yugikt
+package com.example.yugikt.ModelView
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.yugikt.Adapter.CardAdapter
 import com.example.yugikt.Interface.RetrofitService
 import com.example.yugikt.Model.Card
+import com.example.yugikt.R
 
 import com.example.yugikt.Retrofit.Common
 import kotlinx.android.synthetic.main.activity_test.*
