@@ -42,7 +42,7 @@ Ecran qui permet de s'enregister afin de se connecter et d'accéder aux autres f
 ![register](https://github.com/Raffael93/ProjetYuGiOhKT/blob/master/images/register.PNG)
 
 ### Ecran Login
-Ecran qui permet de s'authetifier une fois inscrit afin d'accéder aux autres fonctionnalités
+Ecran qui permet de s'authentifier une fois inscrit afin d'accéder aux autres fonctionnalités
 
 ![login](https://github.com/Raffael93/ProjetYuGiOhKT/blob/master/images/login.PNG)
 
