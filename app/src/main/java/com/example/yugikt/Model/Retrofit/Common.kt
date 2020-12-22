@@ -1,6 +1,6 @@
-package com.example.yugikt.Retrofit
+package com.example.yugikt.Model.Retrofit
 
-import com.example.yugikt.Interface.RetrofitService
+import com.example.yugikt.Model.Interface.RetrofitService
 
 object Common {
 

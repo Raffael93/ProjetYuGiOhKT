@@ -1,4 +1,4 @@
-package com.example.yugikt.Model
+package com.example.yugikt.Model.Database
 
 import android.content.ContentValues
 import android.content.Context

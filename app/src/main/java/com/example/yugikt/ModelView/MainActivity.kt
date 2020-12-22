@@ -1,11 +1,12 @@
-package com.example.yugikt.View
+package com.example.yugikt.ModelView
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.yugikt.Model.DataBase
+import com.example.yugikt.Model.Database.DataBase
 import com.example.yugikt.R
+import com.example.yugikt.View.MenuActivity
 
 
 import kotlinx.android.synthetic.main.activity_main.*

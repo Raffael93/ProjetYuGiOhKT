@@ -1,4 +1,4 @@
-package com.example.yugikt.Model
+package com.example.yugikt.Model.Data
 
 class Card {
 

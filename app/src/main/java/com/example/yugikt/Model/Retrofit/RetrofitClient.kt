@@ -1,4 +1,4 @@
-package com.example.yugikt.Retrofit
+package com.example.yugikt.Model.Retrofit
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

@@ -1,8 +1,8 @@
-package com.example.yugikt.Interface
+package com.example.yugikt.Model.Interface
 
 
 
-import com.example.yugikt.Model.Card
+import com.example.yugikt.Model.Data.Card
 import retrofit2.http.GET
 import retrofit2.Call
 

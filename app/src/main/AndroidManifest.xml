@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".View.SearchActivity"></activity>
-        <activity android:name=".ModelView.VideoView">
+        <activity android:name=".View.VideoView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,10 +26,10 @@
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ModelView.RecyclerView"
+            android:name=".View.RecyclerView"
             android:label="@string/title_activity_test"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".View.MainActivity"></activity>
+        <activity android:name=".ModelView.MainActivity"></activity>
     </application>
 
 </manifest>
